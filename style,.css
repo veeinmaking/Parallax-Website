@@ -1,0 +1,81 @@
+htm {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    padding: 3rem 5rem;
+    background-color: #f4f4f4;
+    color: #6666;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1 {
+    position: relative;
+    left: 500px;
+}
+
+h3 {
+    position: absolute;
+    left: 1000px;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-image {
+    background-image: url(/images/147217554.jpg);
+    min-height: 700px;
+    opacity: 0.7;
+}
+
+.second-image {
+    background-image: url(/images/wp3317115.png);
+    min-height: 700px;
+}
+
+.third-image {
+    background-image: url(/images/147217554.jpg);
+    min-height: 700px;
+    opacity: 0.7;
+}
+
+.fourth-image {
+    background-image: url(/images/wp2216492.jpg);
+    min-height: 700px;
+}
+
+.image {
+    position: relative;
+}
+
+.image div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+/* .image div:first-child{
+    
+} */
